@@ -1,15 +1,15 @@
 //Author Tyler Bolen 
 package cake_decorations;
 
-public class Fondont extends CakeDecorations 
+public class Fondant extends CakeDecorations 
 {
 	MyCake mycake;
 	
-	public Fondont(MyCake mycake)
+	public Fondant(MyCake mycake)
 	{
 		this.mycake= mycake;
 		
-	}//end Fondont constructor 
+	}//end Fondant constructor 
 
 	@Override
 	public String getDescription()
@@ -25,4 +25,4 @@ public class Fondont extends CakeDecorations
 		
 	}//end cost
 
-}//end Fondont class
+}//end Fondant class
